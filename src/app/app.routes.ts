@@ -6,10 +6,8 @@ import {NavComponent} from "./home/nav/nav.component";
 import {HomeComponent} from "./home/home.component"; // CLI imports router
 
 const routes: Routes = [
-  { path: 'heelo', component: HomeComponent },
-  { path: 'home', component: HomeComponent },
-  { path: '404', component: HomeComponent },
-  { path: '**', redirectTo:'404', component: HomeComponent }
+  { path: '', component: HomeComponent },
+  { path: '404', component: HomeComponent }
 ]; // sets up routes constant where you define your routes
 
 // configures NgModule imports and exports

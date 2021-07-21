@@ -1,0 +1,19 @@
+.nav-bar{
+  position: sticky;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+
+}
+
+.nav-bar a {
+  text-decoration:none;
+  color: black;
+
+}
+
+.nav-bar a:hover {
+  text-decoration:none;
+  color: gray;
+
+}
