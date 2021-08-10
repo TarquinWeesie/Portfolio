@@ -1,14 +1,15 @@
 .nav-bar{
   position: sticky;
   width: 100%;
-  height: 200px;
-  background-color: aqua;
+  height: auto;
+  background-color: #f3f3f3;
+  box-shadow: 0 1px 8px #000000;
 
 }
 
 .nav-bar a {
   text-decoration:none;
-  color: black;
+  color: #BB86FC;
 
 }
 
@@ -16,4 +17,25 @@
   text-decoration:none;
   color: gray;
 
+}
+
+.nav-bar-inside {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.nav-bar-items{
+  width: 100%;
+}
+
+.nav-bar-float{
+  float: right;
+}
+
+.nav-bar-float a{
+  margin-left: 12px;
+  margin-top: 2px;
+  font-size: 18px;
 }
