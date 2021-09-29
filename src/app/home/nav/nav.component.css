@@ -3,19 +3,19 @@
   width: 100%;
   height: auto;
   background-color: #f3f3f3;
-  box-shadow: 0 1px 8px #000000;
+  box-shadow: 0 2px 8px #000000;
 
 }
 
 .nav-bar a {
   text-decoration:none;
-  color: #BB86FC;
-
+  color: #000000;
+  font-weight: bold;
 }
 
 .nav-bar a:hover {
   text-decoration:none;
-  color: gray;
+  color: #414040;
 
 }
 
@@ -32,10 +32,11 @@
 
 .nav-bar-float{
   float: right;
+  margin-top: 7px;
 }
 
 .nav-bar-float a{
-  margin-left: 12px;
+  margin-left: 22px;
   margin-top: 2px;
   font-size: 18px;
 }
